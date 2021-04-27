@@ -29,3 +29,11 @@ export PATH=$M3_HOME/bin:$PATH
 Quais as principais maneiras de se utilizar o Maven?
 - Pelo prompt de comandos
 - Pela integração com a IDE
+
+### Aula 01.07 - Faça como eu fiz
+
+### Aula 01.08 - O que aprendemos?
+- As dificuldades de se realizar manualmente o build de uma aplicação Java;
+- As dificuldades de se gerenciar manualmente as dependências de uma aplicação Java;
+- O que é o Maven;
+- Como instalar e executar o Maven.
