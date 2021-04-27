@@ -24,3 +24,8 @@ export M3_HOME=/opt/maven  #ou diretório do maven
 export PATH=$M3_HOME/bin:$PATH
 ```
 - Também pode ser utilizado dentro de sua IDE (Eclipse ou Intellij).
+
+### Aula 01.06 - Utilização do Maven
+Quais as principais maneiras de se utilizar o Maven?
+- Pelo prompt de comandos
+- Pela integração com a IDE
