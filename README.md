@@ -7,3 +7,8 @@ Curso de Maven: Gerenciamento de dependências e build de aplicações Java
 
 ### Aula 01.02 - Projeto inicial
 
+### Aula 01.03 - Build e dependências em uma aplicação Java
+- `Apache Ant`: anteriormente era utilizado para tratar do processo de build de uma aplicação.
+- `Apache Ivy`: anteriormente era utilizado para gerenciar as dependências do projeto.
+- O `Maven` realiza o processo de build e gerência das dependências
+
