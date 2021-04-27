@@ -12,3 +12,7 @@ Curso de Maven: Gerenciamento de dependências e build de aplicações Java
 - `Apache Ivy`: anteriormente era utilizado para gerenciar as dependências do projeto.
 - O `Maven` realiza o processo de build e gerência das dependências
 
+### Aula 01.04 - Ferramentas de build
+Quais as principais vantagens de se utilizar o Maven em uma aplicação Java?  
+`R:` Gerenciamento de dependências e Automatização do build
+
