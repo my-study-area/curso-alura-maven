@@ -16,3 +16,11 @@ Curso de Maven: Gerenciamento de dependências e build de aplicações Java
 Quais as principais vantagens de se utilizar o Maven em uma aplicação Java?  
 `R:` Gerenciamento de dependências e Automatização do build
 
+### Aula 01.05 - Instalação do Maven
+- [https://maven.apache.org/install.html](https://maven.apache.org/install.html)
+- para configurar no path do sistema adicione o conteúdo abaixo no arquivo `~/.profile` ou `/etc/profile`:
+```bash
+export M3_HOME=/opt/maven  #ou diretório do maven
+export PATH=$M3_HOME/bin:$PATH
+```
+- Também pode ser utilizado dentro de sua IDE (Eclipse ou Intellij).
