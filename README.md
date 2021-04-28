@@ -37,3 +37,7 @@ Quais as principais maneiras de se utilizar o Maven?
 - As dificuldades de se gerenciar manualmente as dependências de uma aplicação Java;
 - O que é o Maven;
 - Como instalar e executar o Maven.
+
+## Módulo 02 - Projetos com Maven
+### Aula 02.01 - Criando um projeto com Maven
+- `File > New > Maven Project`, na janela que abrir selecione a opção `Criar projeto simples` e `Use o Workspace Padrão` e `Next`. Na próxima tela preencha o campo Group Id  com a identificação da empresa (Ex: br.com.alura), Artifact Id com a identificação do projeto (nome do projeto) e `Finish`.
