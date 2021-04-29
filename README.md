@@ -44,3 +44,10 @@ Quais as principais maneiras de se utilizar o Maven?
 
 ### Aula 02.02 - GroupId de um projeto com Maven
 O GroupId é utilizado para identificar, unicamente, a organização ao qual o projeto pertence. GroupId é como um pacote do Java, tendo como objetivo identificar a organização ao qual o projeto pertence.
+
+### Aula 02.03 - Estrutura de um projeto com Maven
+- `src/main/java`: contém os códigos java (classes, enums e interfaces).
+- `src/main/resources`: arquivos de configuração do projeto (Ex: persistence.xml, application.properties e messages.properties).
+- `src/test/java`: arquivos de testes automatizados.
+- `src/test/resources`:
+- `pom.xml`: arquivo com as configurações, build e dependências do projeto.
