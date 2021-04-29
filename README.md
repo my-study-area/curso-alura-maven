@@ -71,3 +71,10 @@ Que tipos de arquivos normalmente encontramos no diretório `src/main/resources`
   - faltando agora, somente, adicionar as dependências no arquivo `pom.xml` e removermos o diretório `src/main/webapp/WEB-INF/lib` com os jars do proojeto.
 
   > Obs: caso a opção "Output folder", no build path do projeto, não aparecer verifique a caixa de seleção da opção `Allow output folders for source folders` estar desmarcada, na aba Source do Java Build Path. Fonte: [Fórum da Alura](https://cursos.alura.com.br/forum/topico-problema-com-a-conversao-de-projeto-web-para-projeto-maven-146619)
+
+### Aula 02.06 - Faça como eu fiz
+
+### Aula 02.07 - O que aprendemos?
+- A criar uma aplicação com Maven;
+- A entender a estrutura de diretórios de uma aplicação com Maven;
+- A migrar uma aplicação para o Maven.
