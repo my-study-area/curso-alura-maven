@@ -51,3 +51,7 @@ O GroupId é utilizado para identificar, unicamente, a organização ao qual o p
 - `src/test/java`: arquivos de testes automatizados.
 - `src/test/resources`:
 - `pom.xml`: arquivo com as configurações, build e dependências do projeto.
+
+### Aula 02.04 - Source folders
+Que tipos de arquivos normalmente encontramos no diretório `src/main/resources`?  
+`R:` Arquivos de configuração
