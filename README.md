@@ -92,3 +92,6 @@ Que tipos de arquivos normalmente encontramos no diretório `src/main/resources`
 		</dependency>
 	</dependencies>
 ```
+
+### Aula 03.02 - Pesquisando por dependências
+- [Mvn Repository](https://mvnrepository.com/)
