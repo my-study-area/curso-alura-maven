@@ -78,3 +78,17 @@ Que tipos de arquivos normalmente encontramos no diretório `src/main/resources`
 - A criar uma aplicação com Maven;
 - A entender a estrutura de diretórios de uma aplicação com Maven;
 - A migrar uma aplicação para o Maven.
+
+## Módulo 03 - Dependências no Maven
+### Aula 03.01 - Gerenciando dependências no Maven
+- Exemplo de dependência no arquivo `pom.xml`:
+```xml
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+```
