@@ -95,3 +95,7 @@ Que tipos de arquivos normalmente encontramos no diretório `src/main/resources`
 
 ### Aula 03.02 - Pesquisando por dependências
 - [Mvn Repository](https://mvnrepository.com/)
+
+### Aula 03.03 - Repositório central
+Por padrão, de onde o Maven baixa as dependências de uma aplicação?  
+`R:` Do repositório central do próprio Maven. O Maven possui um repositório central de dependências.
