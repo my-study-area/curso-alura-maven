@@ -111,3 +111,6 @@ Exemplo de arquivo `pom.xml` com repository customizado:
 		</repository>
 	</repositories>
 ```
+### Aula 03.05 - Repositórios remotos
+Por qual motivo precisariámos adicionar algum repositório remoto?  
+`R:` Para baixar dependências que não estão no repositório central do Maven. Pode acontecer de alguma dependência da aplicação ser disponibilizada apenas em outros repositórios remotos.
