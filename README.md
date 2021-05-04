@@ -121,3 +121,25 @@ Por qual motivo precisariámos adicionar algum repositório remoto?
 - A como declarar as dependências de uma aplicação;
 - A como pesquisar por dependências no repositório central do Maven;
 - A como configurar outros repositórios remotos.
+
+## Módulo 04 - Build no Maven
+### Aula 04.01 - Projeto da aula anterior
+
+### Aula 04.02 - Processo de build no Maven
+- `mvn compile`: compila o projeto.
+- `mvn clean`: limpa o diretório de build.
+- `mvn test`: executa os testes.
+- exemplo de configuração de versão de java no `pom.xml`:
+```xml
+<build>
+  <plugins>
+    <plugin>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <configuration>
+        <source>8</source>
+        <target>8</target>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+```
