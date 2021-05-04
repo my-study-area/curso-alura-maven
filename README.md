@@ -143,3 +143,7 @@ Por qual motivo precisariámos adicionar algum repositório remoto?
   </plugins>
 </build>
 ```
+
+### Aula 04.03 - Goals do Maven
+Qual o objetivo do goal test (`mvn test`)?  
+`R:` Executar os testes automatizados da aplicação. O comando mvn test executa os testes automatizados da aplicação, apresentando ao final um relatório.
