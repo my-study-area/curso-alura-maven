@@ -153,3 +153,7 @@ Qual o objetivo do goal test (`mvn test`)?
 - `mvn install`: adiciona o seu projeto no repositório local do maven (`.m2/repository`).
 - `mvn deploy`: adiciona o seu projeto no repositório remoto, caso esteja configurado.
 - para definir o no do pacote devemos adicionar a tag `<finalName>loja</finalName>` no arquivo `pom.xml`, dentro da tag build.
+
+### Aula 04.05 - Empacotando a aplicação
+Onde podemos encontrar, por padrão, o artefato gerado pelo Maven?  
+`R:` No diretório target da aplicação.
