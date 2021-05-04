@@ -157,3 +157,11 @@ Qual o objetivo do goal test (`mvn test`)?
 ### Aula 04.05 - Empacotando a aplicação
 Onde podemos encontrar, por padrão, o artefato gerado pelo Maven?  
 `R:` No diretório target da aplicação.
+
+### Aula 04.06 - Faça como eu fiz
+
+### Aula 04.07 - O que aprendemos?
+- A realizar o build da aplicação com Maven;
+- A utilizar o comando `mvn nome-do-goal` para realizar o build;
+- Alguns goals do Maven, como `compile`, `test` e `package`;
+- A personalizar o artefato de build gerado pelo Maven.
