@@ -165,3 +165,33 @@ Onde podemos encontrar, por padrão, o artefato gerado pelo Maven?
 - A utilizar o comando `mvn nome-do-goal` para realizar o build;
 - Alguns goals do Maven, como `compile`, `test` e `package`;
 - A personalizar o artefato de build gerado pelo Maven.
+
+## Módulo 05 - Outros recursos
+### Aula 05.01 - Projeto da aula anterior
+
+### Aula 05.02 - Plugins
+- [https://maven.apache.org/plugins/](https://maven.apache.org/plugins/)
+- Exemplo de adição do plugin jacoco no `pom.xml`:
+```xml
+<plugin>
+  <groupId>org.jacoco</groupId>
+  <artifactId>jacoco-maven-plugin</artifactId>
+  <version>0.8.2</version>
+  <executions>
+    <execution>
+            <goals>
+                <goal>prepare-agent</goal>
+            </goals>
+    </execution>
+        <execution>
+            <id>report</id>
+            <phase>test</phase>
+            <goals>
+                <goal>report</goal>
+            </goals>
+        </execution>
+  </executions>
+</plugin>
+```
+- para gerar os relatório execute: `mvn clean test`
+- para acessar o relatório acesse `target/site/jacoco/br.com.alura.loja/index.html`
