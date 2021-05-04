@@ -147,3 +147,9 @@ Por qual motivo precisariámos adicionar algum repositório remoto?
 ### Aula 04.03 - Goals do Maven
 Qual o objetivo do goal test (`mvn test`)?  
 `R:` Executar os testes automatizados da aplicação. O comando mvn test executa os testes automatizados da aplicação, apresentando ao final um relatório.
+
+### Aula 04.04 - Gerando o artefato do build
+- `mvn package`: gera o pacote da aplicação (jar/war).
+- `mvn install`: adiciona o seu projeto no repositório local do maven (`.m2/repository`).
+- `mvn deploy`: adiciona o seu projeto no repositório remoto, caso esteja configurado.
+- para definir o no do pacote devemos adicionar a tag `<finalName>loja</finalName>` no arquivo `pom.xml`, dentro da tag build.
