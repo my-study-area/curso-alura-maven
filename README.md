@@ -195,3 +195,7 @@ Onde podemos encontrar, por padrão, o artefato gerado pelo Maven?
 ```
 - para gerar os relatório execute: `mvn clean test`
 - para acessar o relatório acesse `target/site/jacoco/br.com.alura.loja/index.html`
+
+### Aula 05.03 - Plugins do Maven
+Qual o objetivo de se utilizar plugins?  
+`R:` Adicionar novas funcionalidades ao Maven. Plugins servem para extender os comportamentos do Maven.
