@@ -199,3 +199,24 @@ Onde podemos encontrar, por padrão, o artefato gerado pelo Maven?
 ### Aula 05.03 - Plugins do Maven
 Qual o objetivo de se utilizar plugins?  
 `R:` Adicionar novas funcionalidades ao Maven. Plugins servem para extender os comportamentos do Maven.
+
+### Aula 05.04 - Proxy
+- Adicione ou atualizae o código abaixo no arquivo `/home/{username}/.m2/settings.xml` e altere conforme as suas configurações:
+```xml
+<settings xmlns="https://maven.apache.org/SETTINGS/1.0.0"
+      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://maven.apache.org/SETTINGS/1.0.0
+                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <proxies>
+    <proxy>
+      <id>meu-proxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>http://192.168.0.1</host>
+      <port>3128</port>
+      <username>username</username>
+      <password>password</password>
+    </proxy>
+  </proxies>
+</settings>
+```
