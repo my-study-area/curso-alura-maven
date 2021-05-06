@@ -288,3 +288,12 @@ Qual o objetivo de se utilizar plugins?
 ### Aula 05.06 - Modularização de projetos
 Como o Maven identifica os módulos de um projeto?  
 `R:` Pela tag `<modules>` adicionada no `pom.xml`.
+
+### Aula 05.07 - Faça como eu fiz
+
+### Aula 05.08 - O que aprendemos?
+- A utilizar plugins do Maven;
+- A como configurar um proxy no Maven;
+- A como configurar uma aplicação modularizada no Maven.
+
+### Aula 05.09 - Conclusão
