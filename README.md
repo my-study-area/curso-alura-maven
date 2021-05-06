@@ -284,3 +284,7 @@ Qual o objetivo de se utilizar plugins?
 </project>
 ```
 - [Projeto de exemplo com uso de módulo](https://github.com/forks-projects/fj91-clean-architecture)
+
+### Aula 05.06 - Modularização de projetos
+Como o Maven identifica os módulos de um projeto?  
+`R:` Pela tag `<modules>` adicionada no `pom.xml`.
